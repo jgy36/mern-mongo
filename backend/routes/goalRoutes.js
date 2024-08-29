@@ -5,10 +5,10 @@ const {
   setGoals,
   updateGoal,
   deleteGoal,
-} = require("../controllers/goalController");
+} = require("../controllers/goalController"); //import the functions from the controller
 
-router.route("/").get(getGoals).post(setGoals);
+router.route("/").get(getGoals).post(setGoals); //GET and POST requests call a function from the controller
 
-router.route("/:id").put(updateGoal).delete(deleteGoal);
+router.route("/:id").put(updateGoal).delete(deleteGoal); //PUT and DELETE requests call a function from the controller
 
-module.exports = router;
+module.exports = router; //export the router with the routes

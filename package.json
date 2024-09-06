@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Jake",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "mongoose": "^8.5.4"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "process": "^0.11.10"
   }
 }

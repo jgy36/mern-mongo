@@ -21,15 +21,15 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that al
 ## Installation
 
 1. Clone the repository:
-   ```
+   ```bash
    $ git clone <repository-url>
    $ cd <repository-folder>
 2. Install backend dependencies:
-   ```
+   ```bash
    $ cd backend
    $ npm install
 3. Install frontend dependencies:
-   ```
+   ```bash
    $ cd ../frontend
    $ npm install
 4. Create a `.env` file in the backend folder and add the following:
